@@ -1,0 +1,26 @@
+<svg width="240" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <style type="text/css"><![CDATA[
+    @font-face {
+      font-family: "Arial Black";      
+      font-weight: normal;
+      font-style: normal;
+      src: url("../fonts/arial-black.ttf");
+    }
+
+     text { 
+       font-family: "Arial Black";       
+     }
+
+  ]]></style>
+ <g>
+  <title>AGENCY PORTAL</title>
+  <g stroke="null" id="svg_1">
+   <text stroke="null" transform="matrix(0.7704816763356419,0,0,1,26.806029076836364,0) " id="svg_2" x="-54.36801" y="-352.5" font-family="Arial Black" fill="#000000" font-weight="bold" font-style="normal" font-size="40px">
+    <tspan stroke="null" id="svg_3" x="-30.35238" y="24.5" font-size="30px">
+     <tspan stroke="null" id="svg_4" fill="#0099ff">AGENCY</tspan>
+     <tspan stroke="null" id="svg_5" fill="#ffffff">PORTAL</tspan>
+    </tspan>
+   </text>
+  </g>
+ </g>
+</svg>

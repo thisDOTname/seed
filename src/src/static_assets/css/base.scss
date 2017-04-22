@@ -1,0 +1,366 @@
+html {
+    overflow: hidden !important;
+}
+
+body {
+    -webkit-transform:translate3d(0,0,0);
+}
+
+a {
+    text-decoration: none;
+}
+
+#app {
+    font-family: 'Roboto', 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+
+.shell-block-ui-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 999;
+}
+
+.shell-block-ui-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0rem;
+    width: 0rem;
+    margin: auto;
+}
+
+.shell-bar-wrapper {
+    position: fixed;
+    top: 4rem;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.shell-sidebar-drawer {
+    overflow-x: hidden;
+}
+
+.base-class.shell-login-base-wrapper,
+.base-class.shell-register-base-wrapper {
+    background: #ffffff;
+}
+
+.base-class.shell-main-base-wrapper {
+    background: #dddddd;
+}
+
+.shell-bar {
+    /*margin: 5rem 16px 0;*/
+}
+
+.shell-header {
+    height: auto !important;
+    max-height: 4rem;
+    padding: 10px 0 !important;
+    line-height: 1rem !important;
+}
+
+.side-bar a {
+    display: inherit;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.shell-toolbar-title {
+    flex: inherit !important;
+    width: inherit !important;
+}
+
+.shell-toolbar-title-div {
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-flex;
+    position: relative;
+    left: 3.5rem;
+    top: 0.25rem;
+}
+
+.shell-drawer-profile-list {
+    margin: 1.8rem 0;
+}
+
+.side-bar a i,
+.shell-top-bar a i {
+    font-size: 20px;
+}
+
+.shell-user-account {
+    display: inline-flex;
+    margin-left: 1rem;
+}
+
+.user-account-text-wrapper {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-align: left;
+    font-weight: 500;
+    position: relative;
+    top: -0.25rem;
+}
+
+.user-account-icon {
+    line-height: 20px !important;
+    font-size: 20px !important;
+}
+
+.shell-top-bar {
+    display: inline-flex;
+}
+
+.shell-top-bar .btn, .shell-top-bar i {
+    color: inherit;
+}
+
+.shell-toolbar-logo-wrapper {
+    text-align: left;
+}
+
+.shell-toolbar-menu-wrapper {
+    text-align: right;
+}
+
+.shell-toolbar-user-wrapper {
+    text-align: right;
+}
+
+.shell-account-drop-sub-header {
+    font-weight: 700 !important;
+}
+
+.menu.shell-user-menu {
+    display: inline-block;
+}
+
+.shell-user-menu>.menu__content {
+    width: 13rem;
+}
+
+.shell-account-drop-item-label {
+    text-align: left !important;
+}
+
+.shell-account-drop-theme-chip {
+    display: inline-flex;
+    padding: 0.5rem 0.5rem;
+    margin: 0.25rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.active-theme {
+    padding: 1rem !important;
+}
+
+.content.shell-content {
+    background-color: #dddddd;
+}
+
+.content.shell-content.shell-login-content-wrapper,
+.content.shell-content.shell-register-content-wrapper {
+    background: #ffffff;
+}
+
+.card.shell-main-content-card {
+    background: none;
+    box-shadow: none;
+}
+
+.shell-router-view {
+    margin: auto;
+    position: fixed;
+    left: 5rem;
+    top: 5.5rem;
+    right: 2rem;
+    bottom: 1rem;
+    display: inline-block;
+}
+
+.shell-router-view > .card {
+    height: calc(100%) !important;
+}
+
+.shell-router-view.shell-login-router-view,
+.shell-router-view.shell-register-router-view {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.shell-login-form-wrapper {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 2rem;
+}
+
+.shell-register-form-wrapper {
+    position: relative;
+    top: 2rem;
+}
+
+.ap--mod-form-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 2rem;
+}
+
+.card.shell-login-content-card {
+    box-shadow: none;
+    -webkit-perspective: 1000px; /* Chrome, Safari, Opera */
+    perspective: 1000px;
+    -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+    backface-visibility: hidden;
+}
+
+.card.shell-register-content-card {
+    height: calc(100%) !important;
+    box-shadow: none;
+}
+
+.shell-toolbar-login-div {
+    padding: 1rem;
+}
+
+.shell-router-nav-card {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+}
+
+.shell-router-nav-card .btn {
+    top: 0.65rem;
+}
+
+button.shell-router-nav-back-btn {
+    position: relative;
+    top: 0.75rem !important;
+}
+
+.shell-breadcrumbs-wrapper {
+    background-color: #ffffff;
+    line-height: 5rem;
+}
+
+.shell-breadcrumbs-wrapper ul {
+    justify-content: flex-start;
+}
+
+.shell-breadcrumbs-wrapper>ul>li,
+.shell-breadcrumbs-wrapper>ul>li>a {
+    font-size: 1.5rem;
+}
+
+.shell-router-view-wrapper {
+    position: absolute;
+    right: 0rem;
+    left: 0rem;
+    top: 6rem;
+    bottom: 0rem;
+    overflow: auto;
+}
+
+.shell-router-view-wrapper.shell-login-view-wrapper {
+    background-image: url('./static_assets/img/lg-bg.jpg');
+    background-size: cover;
+    -webkit-perspective: 1000px; /* Chrome, Safari, Opera */
+    perspective: 1000px;
+    -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+    backface-visibility: hidden;
+}
+
+.shell-router-view-wrapper.shell-login-view-wrapper,
+.shell-router-view-wrapper.shell-register-view-wrapper {
+    top: 0rem;
+}
+
+.shell-content-card-wrapper {
+    padding: 0 !important;
+}
+
+.shell-toolbar-register-div {
+    padding: 1rem;
+}
+
+.ap--flat-card {
+    box-shadow: none !important;
+ }
+
+.ap--dis-in-flx {
+    display: inline-flex;
+}
+
+.ap--sa-email-error-wrapper {
+    min-height: 8rem;
+}
+
+.shell-toolbar-button {
+    position: absolute !important;
+    top: -0.1rem;
+    z-index: 9;
+}
+
+.shell-breadcrumb-home-icon {
+    position: relative;
+    top: 0.6rem;
+    font-size: 2.5rem;
+}
+
+.shell-breadcrumbs-btn-wrapper {
+    position: relative;
+    top: -0.75rem;
+}
+
+button.shell-breadcrumbs-btn i {
+    font-size: 2.5rem;
+}
+
+.shell-breadcrumbs li:last-child a {
+    color: #5f6062;
+    font-weight: 700;
+}
+
+.ap--hover-help-text-wrapper:hover .ap--hover-help-text {
+    display: block;
+}
+
+.ap--hover-help-text {
+    display: none;
+    font-size: 0.75rem;
+    float: right;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+}
+
+.ap--hover-help-text i {
+    font-size: 0.75rem;
+}
+
+.hideLogo {
+    display: none;
+}
+
+.shell-drawer-logo-wrapper {
+    position: relative;
+    top: 0.8rem;
+    left: 1.2rem;
+}

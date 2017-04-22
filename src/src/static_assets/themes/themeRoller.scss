@@ -1,0 +1,73 @@
+@import './static_assets/themes/configs.scss';
+
+.light a {
+    color: $accent-light;
+}
+
+.dark a {
+    color: $accent-dark;
+}
+
+.light .btn:not(.btn--icon) {
+    background-color: $logo-light;
+}
+
+.dark .btn:not(.btn--icon) {
+    background-color: $logo-dark;
+}
+
+.light .btn--icon {
+    color: $accent-light;
+}
+
+.dark .btn--icon {
+    color: $accent-dark;
+}
+
+.side-bar.light a:hover {
+    color: $logo-light;
+}
+
+.side-bar.dark a:hover {
+    color: $logo-dark;
+}
+
+.side-bar.dark a.menu-item-a.active-menu-item {
+    color: $logo-dark;
+}
+
+.side-bar.light a.menu-item-a.active-menu-item {
+    color: $logo-light;
+}
+
+.shell-top-bar.light .btn:hover, .shell-top-bar.light i:hover {
+    color: $logo-light;
+}
+
+.shell-top-bar.dark .btn:hover, .shell-top-bar.dark i:hover {
+    color: $logo-dark;
+}
+
+.shell-bar-wrapper.light {
+    background-color: $primary-light;
+}
+
+.shell-bar-wrapper.dark {
+    background-color: $primary-dark;
+}
+
+.shell-sidebar-drawer.light {
+    background-color: $primary-light;
+}
+
+.shell-sidebar-drawer.dark {
+    background-color: $primary-dark;
+}
+
+.shell-header.light {
+    background-color: $primary-light;
+}
+
+.shell-header.dark {
+    background-color: $primary-dark;
+}
