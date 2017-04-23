@@ -56,6 +56,9 @@ app.use(hotMiddleware)
 var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory)
 app.use(staticPath, express.static('./static'))
 
+var dbAPI = require('../app/db/connect')
+var d = new dbAPI()
+
 module.exports = app.listen(port, function (err) {
   if (err) {
     console.log(err)
